@@ -5,7 +5,7 @@
 
 ------------------------------------
 
-### BinarySearch ###
+### Binary Search ###
 
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
@@ -49,6 +49,58 @@
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
 |나무 자르기|:star::star::star:|C|
-|NN단표|:star::star::star::star:|C|
-|중복없는 구간|:star::star::star::star:|C|
+|NN단표|:star::star::star::star::star:|C|
+|중복없는 구간|:star::star::star::star::star:|C|
+
+
+### Devide And Conquer ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|향상된 연속부분 최대합|:star::star::star::star::star:|C|
+
+
+### Brute Force ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|연속부분 최대합|:star::star:|C|
+
+### Recursive Function ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|거듭제곱 구하기|:star:|C|
+|goodseq|문제아직못풂|C|
+
+### Priority Queue(Heap) ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|힙 구현|:star::star::star:|C++|
+|배열로 구현한 우선순위큐|:star:|C++|
+
+### Tree ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|트리순회 결과 출력하기|:star:|C|
+|공통조상 찾기|:star:|C|
+
+### Queue ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|전염병|:star:|C|
+|원형큐 구현하기|:star:|C++|
+
+### Stack ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|접시|:star::star:|C|
+|괄호|:star::star:|C|
+|괄호의 값|:star::star::star:|C|
+|히스토그램에서 가장 큰 직사각형 찾기|:star::star::star::star::star:|C++|
+
 
