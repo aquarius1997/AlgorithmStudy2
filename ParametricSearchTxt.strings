@@ -1,10 +1,3 @@
-/* 
-  ParametricSearch.strings
-  AJ
-
-  Created by 송혜경 on 03/10/2019.
-  Copyright © 2019 송혜경. All rights reserved.
-*/
 ** 이진 탐색을 활용한다 **
 start : 무조건 X
 end : 무조건 O
