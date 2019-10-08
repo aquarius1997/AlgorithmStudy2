@@ -42,14 +42,14 @@
 
 ### Parametric Search ###
 
-:writing_hand: 개인적으로 많이 어려웠음..
-이진탐색을 활용한다, 가능/불가능의 경계선을 알아내는 것이 핵심이다
-* 중복없는 구간 문제는 이진탐색이 아닌 방법으로 훨씬 빨리(O(n)) 풀 수 있다. (중복없는구간2.c) 
+이진탐색을 활용한다, 가능/불가능의 경계선을 알아내는 것이 핵심이다. :nauseated_face: 개인적으로 많이 어려웠음..
+
+중복없는구간2.c 는 이진탐색이 아닌 방법으로 풀은 코드 - (O(n))
 
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
 |나무 자르기|:star::star::star:|C|
-|NN단표|:star::star::star::star::star:|C|
+|:skull:NN단표|:star::star::star::star::star:|C|
 |중복없는 구간|:star::star::star::star:|C|
 |중복없는 구간2|:star::star::star::star::star:|C|
 
@@ -102,9 +102,10 @@
 |접시|:star:|C|
 |괄호|:star:|C|
 |괄호의 값|:star::star::star:|C|
-|히스토그램에서 가장 큰 직사각형 찾기|:star::star::star::star::star:|C++|
+|:skull:히스토그램에서 가장 큰 직사각형 찾기|:star::star::star::star::star:|C++|
 
 ### Dynamic Programming ###
+
 
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
@@ -114,7 +115,7 @@
 |제곱수의 합|:star::star::star:|C|
 |연속부분 최대합3|:star::star::star::star:|C|
 |자원채취|:star::star:|C|
-|두 문자열 사이의 거리|:star::star::star::star::star:|C|
-|팰린드롬 만들기|:star::star::star::star::star:|C|
+|:skull:두 문자열 사이의 거리|:star::star::star::star::star:|C|
+|:skull:팰린드롬 만들기|:star::star::star::star::star:|C|
 
 
