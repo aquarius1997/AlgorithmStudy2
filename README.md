@@ -50,14 +50,15 @@
 |---|---|---|
 |나무 자르기|:star::star::star:|C|
 |NN단표|:star::star::star::star::star:|C|
-|중복없는 구간|:star::star::star::star::star:|C|
+|중복없는 구간|:star::star::star::star:|C|
+|중복없는 구간2|:star::star::star::star::star:|C|
 
 
 ### Devide And Conquer ###
 
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
-|향상된 연속부분 최대합|:star::star::star::star::star:|C|
+|향상된 연속부분 최대합|:star::star::star::star:|C|
 
 
 ### Brute Force ###
@@ -71,7 +72,7 @@
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
 |거듭제곱 구하기|:star:|C|
-|goodseq|문제아직못풂|C|
+|goodseq|:star::star::star::star:|C|
 
 ### Priority Queue(Heap) ###
 
@@ -102,5 +103,18 @@
 |괄호|:star::star:|C|
 |괄호의 값|:star::star::star:|C|
 |히스토그램에서 가장 큰 직사각형 찾기|:star::star::star::star::star:|C++|
+
+### Dynamic Programming ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|숫자 만들기|:star:|C|
+|카드놀이|:star:|C|
+|버튼 누르기|:star:|C|
+|제곱수의 합|:star::star::star:|C|
+|연속부분 최대합3|:star::star::star::star:|C|
+|자원채취|:star::star:|C|
+|두 문자열 사이의 거리|:star::star::star::star::star:|C|
+|팰린드롬 만들기|:star::star::star::star::star:|C|
 
 
