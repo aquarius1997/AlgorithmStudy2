@@ -99,8 +99,8 @@
 
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
-|접시|:star::star:|C|
-|괄호|:star::star:|C|
+|접시|:star:|C|
+|괄호|:star:|C|
 |괄호의 값|:star::star::star:|C|
 |히스토그램에서 가장 큰 직사각형 찾기|:star::star::star::star::star:|C++|
 
