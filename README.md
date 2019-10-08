@@ -49,7 +49,7 @@
 | Title | 체감난이도 | 컴파일러(언어) |
 |---|---|---|
 |나무 자르기|:star::star::star:|C|
-|:skull:NN단표|:star::star::star::star::star:|C|
+|:robot:NN단표|:star::star::star::star::star:|C|
 |중복없는 구간|:star::star::star::star:|C|
 |중복없는 구간2|:star::star::star::star::star:|C|
 
@@ -102,7 +102,7 @@
 |접시|:star:|C|
 |괄호|:star:|C|
 |괄호의 값|:star::star::star:|C|
-|:skull:히스토그램에서 가장 큰 직사각형 찾기|:star::star::star::star::star:|C++|
+|:robot:히스토그램에서 가장 큰 직사각형 찾기|:star::star::star::star::star:|C++|
 
 ### Dynamic Programming ###
 
@@ -115,7 +115,7 @@
 |제곱수의 합|:star::star::star:|C|
 |연속부분 최대합3|:star::star::star::star:|C|
 |자원채취|:star::star:|C|
-|:skull:두 문자열 사이의 거리|:star::star::star::star::star:|C|
-|:skull:팰린드롬 만들기|:star::star::star::star::star:|C|
+|:robot:두 문자열 사이의 거리|:star::star::star::star::star:|C|
+|:robot:팰린드롬 만들기|:star::star::star::star::star:|C|
 
 
