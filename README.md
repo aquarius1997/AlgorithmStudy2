@@ -118,4 +118,13 @@
 |:robot:두 문자열 사이의 거리|:star::star::star::star::star:|C|
 |:robot:팰린드롬 만들기|:star::star::star::star::star:|C|
 
+### DFS ###
 
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|깊이우선탐색과 너비우선탐색|:star:|C|
+|2색 칠하기|:star:|C|
+|이분그래프 판별|:star:|C|
+|웜바이러스|:star:|C|
+|단지번호 붙이기|:star::star:|C|
