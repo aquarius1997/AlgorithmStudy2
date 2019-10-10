@@ -118,7 +118,7 @@
 |:robot:두 문자열 사이의 거리|:star::star::star::star::star:|C|
 |:robot:팰린드롬 만들기|:star::star::star::star::star:|C|
 
-### DFS ###
+### DFS(Basic) ###
 
 
 | Title | 체감난이도 | 컴파일러(언어) |
@@ -128,3 +128,18 @@
 |이분그래프 판별|:star:|C++|
 |웜바이러스|:star:|C++|
 |단지번호 붙이기|:star::star:|C++|
+
+
+### BFS(Basic) ###
+
+처음 목수의 미로탈출 풀때, 시간초과해결 못했음..
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|2색 칠하기|:star:|C++|
+|미로 찾기|:star::star:|C++|
+|단지번호 붙이기|:star:|C++|
+|이상한 계산기|:star:|C++|
+|전염병|:star:|C++|
+|목수의 미로탈출|:star::star::star::star:|C++|
+
