@@ -143,3 +143,15 @@
 |전염병|:star:|C++|
 |목수의 미로탈출|:star::star::star::star:|C++|
 
+### Graph Algorithm ###
+개념자체가 자꾸 헷갈림;
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|Dijkstra|:star::star::star:|C++|
+|최단거리|:star::star::star:|C++|
+|파티|:star::star::star:|C++|
+|특정최단거리|:star::star::star::star:|C++|
+|SCC|:star::star::star::star::star:|C++|
+
+
