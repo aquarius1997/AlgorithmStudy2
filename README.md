@@ -141,7 +141,7 @@
 |단지번호 붙이기|:star:|C++|
 |이상한 계산기|:star:|C++|
 |전염병|:star:|C++|
-|목수의 미로탈출|:star::star::star::star:|C++|
+|:robot:목수의 미로탈출|:star::star::star::star:|C++|
 
 ### Graph Algorithm ###
 개념자체가 자꾸 헷갈림;
@@ -154,4 +154,28 @@
 |특정최단거리|:star::star::star::star:|C++|
 |SCC|:star::star::star::star::star:|C++|
 
+### BFS와 DFS ###
+
+| Title | 체감난이도 | 컴파일러(언어) |
+|---|---|---|
+|CONNECTEDCOMP|:star::star:|C++|
+|CHEEZE|:star::star:|C++|
+|SLIKAR|:star::star::star:|C++|
+|TOMATO|:star::star:|C++|
+|TRESURE|:star::star::star:|C++|
+|AREA|:star::star::star:|C++|
+|SAFTYZONE|:star::star:|C++|
+|PRIMEPATH|:star::star::star::star:|C++|
+|LETTER|:star::star::star:|C++|
+|TEAMPROJECT|:star::star::star:|C++|
+|:robot:BISHOP|:star::star::star::star::star:|C++|
+|NQUEEN|:star::star::star::star:|C++|
+|FINDBEAD|:star::star::star::star:|C++|
+|:robot:CAMERA|:star::star::star::star::star:|C++|
+|ICEBERG|:star::star:|C++|
+|TREEHW|:star::star::star::star:|C++|
+|DAM|:star::star::star:|C++|
+|ROBOT|:star::star::star::star::star:|C++|
+|COWART|:star::star:|C++|
+|CHOOSENUMBER|:star::star::star:|C++|
 
