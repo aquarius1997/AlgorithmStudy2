@@ -1,106 +1,105 @@
 //
 //  힙구현.cpp
-//  AJ
+//  AlgorithmGit
 //
-//  Created by 송혜경 on 06/10/2019.
+//  Created by 송혜경 on 2019/12/05.
 //  Copyright © 2019 송혜경. All rights reserved.
-//  !! 힙(MIN_HEAP) : 부모의 값이 항상 자식보다 작은 완전 이진 트리 (=부모일수록 우선순위가 높음)
-//  노드의 수가 N개인 힙의 삽입 시간 복잡도 : (높이 : log N) 따라서 O(log N)
-//  삭제 시간 복잡도 : O(log N)
-//  !!! 힙의 루트번호는 1번이다!!! 무조건 1번부터 시작
-/*          1
- 2       3
- 4      5  6      7
- */
+//  MAX_HEAP 구현
 
+// !!! Heap은 인덱스 1번부터 시작함에 유의
 #include <stdio.h>
-const int MAX = 100;
+const int MAXN = 100;
 
-struct PriorityQueue {
-    int data[MAX];
-    int len = 1;    //원소의 마지막을 가리킨다
+typedef struct PriorityQueue {
+    int data[MAXN];
+    int len = 1;    //len은 원소의 마지막을 가리킴
     
-    //1.맨 끝에 값을 push하고
-    //2.부모노드와 비교하며 우선순위큐를 만든다
+    //1. 맨 끝에 값을 push
+    //2. 부모노드와 비교하며 우선순위큐를 만든다
     void push(int x) {
         int idx;
         
-        data[len++] = x;
+        data[len] = x;
+        idx = len;  //방금 삽입한 노드의 위치 저장
+        len++;
         
-        idx = len - 1;
-        
-        //루트가 아닐때 반복하며 비교
-        while(idx > 1) {
-            if(data[idx] < data[idx/2]) {
-                int temp = data[idx];
-                data[idx] = data[idx/2];
-                data[idx/2] = temp;
-            }
-            else break;
-            
-            idx = idx/2;
+        while(idx > 1) {    //루트가 아닐때까지 부모랑 비교하며 위치 조정을 반복한다
+            if(data[idx] > data[idx/2]) {   //자식노드가 더 크면 위치 바꿈
+                int temp = data[idx/2];
+                data[idx/2] = data[idx];
+                data[idx] = temp;
+                
+                idx = idx/2;
+            } else break;
         }
-    }
+    }   //end push function
     
-    //1. 루트 제거
-    //2. 맨 끝에 있는 요소를 루트로 가져옴 + 크기 조정
-    //3. 우선순위큐로 만든다
+    //1. 요소 pop : 루트노드 제거
+    //2. 마지막 요소를 루트노드로 가져오고 크기를 -1 한다
+    //3. 우선순위 큐로 만든다
     void pop() {
         int idx;
-        int pIdx;
+        int childIdx;
         
         data[1] = data[len-1];
         len--;
         
         idx = 1;
         
-        //0. 왼쪽과 오른쪽 자식이 있는지 확인한다
-        //1. 자식들 중에서 우선순위가 높은 자식을 알아내서
-        //2. 해당 자식노드와 자리를 바꾼다
+        // 1. 왼쪽과 오른쪽 자식이 있는지 확인한다
+        // 2. 자식들 중에서 우선순위가 높은 자식을 알아내서
+        // 3. 해당 자식노드와 자리를 바꾼다
         while(1) {
-            pIdx = -1;
+            childIdx = -1;
             
-            //1) 자식노드가 없을 경우
-            if(len*2 >= len) {
+            //자식노드가 있는지 확인하는 과정
+            if(idx*2 >= len) {  //자식노드가 없을 경우
                 break;
-            }
-            //2) 왼쪽 자식만 존재할 경우
-            else if((idx*2 >= 1 && idx*2 < len) && idx*2+1 >= len) {
-                pIdx = idx*2;
-            }
-            //3) 둘 다 존재하는 경우
-            else {
-                if(data[idx*2] < data[idx*2+1]) {
-                    pIdx = idx*2;
-                }
-                else {
-                    pIdx = idx*2 + 1;
+            } else if((idx*2 < len && idx*2 >= 1) && idx*2+1 >= len) { //왼쪽 자식만 존재할 경우
+                childIdx = idx*2;
+            } else {    //왼쪽, 오른쪽 자식이 모두 존재할경우
+                //어떤 자식이 더 큰지 알아냄
+                if(data[idx*2] > data[idx*2 + 1]) { //왼쪽 자식이 더 클때
+                    childIdx = idx*2;
+                } else { //오른쪽 자식이 더 크면
+                    childIdx = idx*2 + 1;
                 }
             }
             
-            if(data[idx] > data[pIdx]) {
+            if(data[idx] < data[childIdx]) {    //자식노드가 더 클 경우 자리 바꿈
                 int temp = data[idx];
-                data[idx] = data[pIdx];
-                data[pIdx] = temp;
+                data[idx] = data[childIdx];
+                data[childIdx] = temp;
                 
-                idx = pIdx;
-            }
-            //자식노드가 더 클 경우
-            else break;
+                idx = childIdx;
+            } else break;
         }
-    }
+    }   //end pop function
     
     int top() {
         return data[1];
     }
-};
+    
+}PriorityQueue;
 
 int main(void) {
     PriorityQueue q;
     
+    q.push(5);
     q.push(3);
     q.push(1);
     q.push(2);
+    q.push(10);
+    q.push(4);
+    
+    printf("%d\n", q.top());
+    q.pop();
+    
+    printf("%d\n", q.top());
+    q.pop();
+    
+    printf("%d\n", q.top());
+    q.pop();
     
     printf("%d\n", q.top());
     q.pop();
@@ -113,3 +112,4 @@ int main(void) {
     
     return 0;
 }
+
